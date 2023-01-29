@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="ali.css">
+  <title>ESCAPE MATRIX BROKIE  </title>
+
+</head>
+<body>
+  <header class="header">
+
+<div class="left">
+  
+  <image src="/2.jpg" alt="no img"  id="img">
+  </image> 
+  <div id="divt">GYM LOVERS</div>
+  
+</div>
+<div class="middle">
+  <nav class="navbar">
+    <ul>
+      <li><a href="" target="_blank">HOME</a></li>
+      <li><a href="" >SERVICE</a></li>
+      <li><a href="" >CONTACT</a></li>
+      <li><a href="" >ABOUT</a></li>
+    </ul>
+  </nav>
+  
+</div>
+<div class="right">
+ 
+ <button class="btn">CONTACT US </button>
+ <button class="btn">EMAIL </button>
+</div>
+<div class="form">
+  <h1 class="h1">JOIN THE BEST GYM NOW</h1>
+  <form  action="backend.php">
+    <div class="enter">
+  <input type="text" name="name" id="name" placeholder="Enter your Name "class="input"></div>
+  <div class="enter">
+  <input type="text" name="name" id="name" placeholder="Enter your Email "class="input"></div>
+  <div class="enter">
+  <input type="text" name="name" id="name" placeholder="Enter your Number "class="input"></div>
+  <div class="enter">
+  <input type="text" name="name" id="name" placeholder="Enter your Gender "class="input"></div>
+  <div class="enter">
+  <input type="submit" class="submit"  value="Submit"> 
+ </div>
+ 
+  </form>
+</div>
+
+
+</header>
+</body>
+*{ 
+     box-sizing: border-box;
+ }
+body{
+    background-color:rgb(235, 241, 241);
+    
+    background: url('/m2.jpg');
+   
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    
+}
+.left{
+    border:2px solid black; 
+    position: absolute;
+    margin:auto;
+    display:inline-block;
+}
+
+.right{
+    border:2px solid blue;
+    position: absolute;
+    right: 8px;
+    top:38px;
+    border-radius: 6px;
+}
+.middle{
+    border:2px solid green;
+    overflow: auto;
+    position: absolute;
+    right:392px;
+    margin-top: 17px;
+    border-radius:10px;
+    width: 40%;
+}
+#img{
+    width: 74px;
+}
+.navbar li {
+    font-weight:bolder;
+    background-color: rgb(0 0 0 / 75%);
+    float: left;
+    overflow: auto;
+    padding: 10px;
+
+}
+.navbar li a{
+    text-decoration: none;
+    margin: 13px;
+    font-size: medium;
+    font-family: cursive;
+}
+.navbar li a:hover{
+    background-color: rgb(0, 0, 153);
+padding:10px;
+border-radius: 8px;
+}
+#divt{
+    font-weight: bolder;
+    background-color: rgb(40 19 19);
+    line-height: 25px;
+}
+.btn{
+    background-color: #c8b972;
+    padding: 12px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 153);
+
+    padding:6px;
+    border-radius: 8px;
+}
+.form{
+    border: 4px solid rgb(255, 255, 255);
+    margin: 176px 106px;
+    width: 45%;
+    position: absolute;
+    border-radius: 27px;
+    height: 56%;
+    box-sizing: border-box;
+}
+.h1{
+ 
+    text-align: center;
+    color: rgb(152, 190, 190);
+    font-size:xx-large;
+}
+.input{
+
+    text-align: center;
+    padding: 11px;
+    width: 178%;
+    margin: 0px -62px;
+    font-size: medium;
+    font-weight: bold;
+}
+.enter{
+    width: 33%;
+    margin: 23px 183px;
+}
+.submit{
+    padding: 13px;
+    margin: 3px -68px;
+    width: 182%;
+    font-weight: bolder;
+    font-size: large;
+     font-family: cursive;
+     background-color: #360000;;
+}
+.submit:hover{
+    background-color: rgb(0, 0, 153) ;
+}
